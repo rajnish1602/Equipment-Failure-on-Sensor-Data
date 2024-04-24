@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![Image Description](/Images/machinerepair.jpg)
+
 Predicting equipment failures is crucial for industries where unexpected downtime can have significant operational and financial consequences. Traditional methods of failure prediction often rely on analyzing physical signs of wear and tear, which may not be suitable for industries like semiconductor manufacturing where failures can be abrupt and event-based. Moreover, relying solely on temporal data can lead to inaccuracies and overlook significant details about potential malfunctions. To address these drawbacks, there is a growing trend towards incorporating extensive equipment logs, sensor data, and contextual factors such as process parameters and environmental conditions to improve failure prediction accuracy.
 
 ## Literature Review
