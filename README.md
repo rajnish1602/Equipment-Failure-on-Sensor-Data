@@ -24,12 +24,29 @@ This project aims to develop an equipment failure prediction system that leverag
 
 The methodology involves the following steps:
 
-1. **Data Collection:** Gather extensive equipment logs, sensor data, process parameters, and environmental conditions.
-2. **Data Preprocessing:** Clean and preprocess the collected data to ensure quality and consistency.
-3. **Feature Engineering:** Extract relevant features from the data, including temporal, sensor, and contextual features.
-4. **Model Development:** Train machine learning models using the processed data to predict equipment failures.
-5. **Model Evaluation:** Evaluate the performance of the trained models using appropriate metrics such as accuracy, precision, recall, and F1-score.
-6. **Deployment:** Deploy the trained models into production environments for real-time failure prediction.
+1. **Data Collection:**
+Collect extensive equipment logs, sensor data, process parameters, and environmental conditions.
+Ensure data quality and consistency.
+2. **Data Preprocessing:**
+Clean and preprocess the collected data.
+Handle missing values, outliers, and noise.
+3. **Feature Engineering:**
+Extract relevant features from the data.
+Consider temporal features (e.g., time of day, day of week), sensor readings, and contextual information.
+4. **Model Development:**
+**Train two machine learning models:**
+Random Forest: An ensemble method that builds multiple decision trees and combines their predictions.
+LSTM (Long Short-Term Memory): A type of recurrent neural network (RNN) suitable for sequential data.
+Tune hyperparameters and optimize model performance.
+5. **Model Evaluation:**
+Evaluate the models using appropriate metrics:
+Accuracy: Overall correctness of predictions.
+Precision: Proportion of true positive predictions among all positive predictions.
+Recall: Proportion of true positive predictions among actual positive instances.
+F1-score: Harmonic mean of precision and recall.
+6. **Deployment:**
+Deploy the trained models in production environments for real-time equipment failure prediction.
+Monitor their performance and update as needed.
 
 ## Conclusion
 
