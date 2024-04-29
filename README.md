@@ -47,6 +47,7 @@ F1-score: Harmonic mean of precision and recall.
 6. **Deployment:**
 Deploy the trained models in production environments for real-time equipment failure prediction.
 Monitor their performance and update as needed.
+**Link:** https://equipmentfailure.streamlit.app/
 
 ## Conclusion
 
